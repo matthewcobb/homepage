@@ -1,0 +1,90 @@
+// Use Compass ('cause it rocks!)
+@import "compass";
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 13px;
+$base-line-height: 1.4;
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-weight: $bold;
+
+@import "modules/all";
+@import "mixins/mixins";
+
+//Main Content
+
+html, body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+
+header{
+	width:100%;
+	height:800px;
+	background: url("../img/header/mob.jpg") center no-repeat;
+	@include image-2x("header/large-2x.jpg", 100%, 100%);
+	background-size:cover;
+}
+
+.nav {
+	display:none;
+	position:absolute;
+	right:80px;
+	margin-top:40px;
+}
+
+.nav ul{
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+.nav ul li{
+	list-style:none;
+	padding:15px 30px 15px 30px;
+	display:inline-block;
+}
+
+.login{
+	background-color:$color-green;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.logo{
+	width:280px;
+	position: relative;
+	margin: 0 auto;
+	top:200px;
+}
+
+.name{
+	display:inline-block;
+}
+
+.reedsy-logo{
+	display:inline-block;
+	width:96px;
+	height:101px;
+	margin:0 0 20px 80px;
+	background: url("../img/logo.png");
+	@include image-2x("logo2x.png", 191px, 201px);
+}
+
+@import "modules/mediaqueries";
+
