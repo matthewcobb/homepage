@@ -65,8 +65,8 @@ header {
   /* line 35, ../sass/partials/_base.scss */
   header {
     /* on retina, use image that's scaled by 2 */
-    background-image: url("../img/header/mob-x2.jpg");
-    background-size: 100% 100%;
+    background-image: url("../img/header/mob-x2.jpg") center no-repeat;
+    background-size: cover;
   }
 }
 
@@ -125,8 +125,8 @@ header {
   /* line 80, ../sass/partials/_base.scss */
   .reedsy-logo {
     /* on retina, use image that's scaled by 2 */
-    background-image: url("logo2x.png");
-    background-size: 191px 201px;
+    background-image: url("../img/logox2.png") center no-repeat;
+    background-size: cover;
   }
 }
 
@@ -166,7 +166,7 @@ header {
   /* line 16, ../sass/modules/_mediaqueries.scss */
   header {
     /* on retina, use image that's scaled by 2 */
-    background-image: url("../img/header/large-x2.jpg");
-    background-size: 100% 100%;
+    background-image: url("../img/header/large-x2.jpg") center no-repeat;
+    background-size: cover;
   }
 }
