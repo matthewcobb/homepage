@@ -65,7 +65,7 @@ header {
   /* line 35, ../sass/partials/_base.scss */
   header {
     /* on retina, use image that's scaled by 2 */
-    background-image: url("header/large-2x.jpg");
+    background-image: url("../img/header/mob-2x.jpg");
     background-size: 100% 100%;
   }
 }
@@ -166,7 +166,7 @@ header {
   /* line 16, ../sass/modules/_mediaqueries.scss */
   header {
     /* on retina, use image that's scaled by 2 */
-    background-image: url("header/large-2x.jpg");
+    background-image: url("../img/header/large-2x.jpg");
     background-size: 100% 100%;
   }
 }
