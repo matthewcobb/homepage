@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------------------------------------------------------------
+ @package: homepage (app)
+
+ @author: matthew cobb
+ @www: www.reedsy.com
+ @github: contact@matthewcobb.co.uk
+
+ @twitter: SGoresht
+
+ @copyright: COPYRIGHT 10-15-2014 reedsy
+ =============================================================================
+ Filename: style.scss
+ =============================================================================
+ This file is responsible for all styles on the homepage app.  Styles should be compiled using compass and sass.
+ --------------------------------------------------------------------------------------------------------------------- */
+
+/* =============================================================================
+Imports
+========================================================================== */
+/* Base imports */
+@import "compass/utilities";
+@import "partials/_variables.scss";
+@import "partials/_helpers.scss";
+
+
+@import "compass/css3/pie";
+@import "compass/css3";
+@import "partials/_variables.scss";
+@import "partials/_grids.scss";
+
+@import "partials/_mixins.scss";
+
+/* Optional imports */
+
+
+
+
+
+@import "partials/_media-queries";
+
+/* =============================================================================
+Main Styles
+========================================================================== */
