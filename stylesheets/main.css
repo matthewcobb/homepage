@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic,300italic);
 @font-face {
   font-family: 'aleobold';
   src: url("../fonts/Aleo-Bold-webfont.eot");
@@ -12,7 +13,7 @@
 h1, h2, h3, h4, h5, h6, p, a {
   margin: 0;
   padding: 0;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1em;
 }
 
@@ -444,7 +445,7 @@ section {
   }
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
   /* line 124, ../sass/modules/_mediaqueries.scss */
   header {
     height: 600px;
