@@ -1,21 +1,169 @@
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 1025px){
 	.logo{
 		width:500px;
-		top:370px;
+		top:380px;
+	}
+
+	#burger, .BTN-login{
+		display:none;
 	}
 	.logo h1{
 		margin:0px 0 0px 20px;
 		position: relative;
 		top:-12px;
 		font-size:100pt;
+		letter-spacing: -4px;
 	}
-	.reedsy-logo{margin:0 0 0px 0px;}
+
+	.green{
+		height: 300px;
+		width:120%;
+		left:-10%;
+		top:-150px;
+	}
+
+	.signup{
+		width:500px;
+		top:400px;
+	}
+
+	.reedsy-logo{margin:0 0 0px 0px; width:96px;}
 
 	.nav{display:block;}
 
 	header{	
-		background: url("../img/header/large.jpg") center no-repeat;
-		height:1200px;
+		background: url("../img/header/large.jpg") center top no-repeat;
+		@include image-2x("../img/header/largex2.jpg", cover);
+		height:$height2;
 		background-size:cover;
 	}
+
+	.macbook{
+		height: 549px;
+		top:$height2 - 280px;
+		background: url("../img/macbook.png") center top no-repeat;
+		@include imagealt-2x("../img/macbookx2.png", 500px);
+	}
+
+	section{
+		margin:60px auto 0 auto;
+		max-width: 960px;
+	}
+
+	section h1{font-size:30pt;}
 }
+
+@media only screen and (min-width: 500px) and (max-width: 1024px){
+	
+	.logo{
+		width:500px;
+		top:300px;
+	}
+
+	.logo h1{
+		margin:0px 0 0px 20px;
+		position: relative;
+		top:-12px;
+		font-size:100pt;
+		letter-spacing: -4px;
+	}
+
+	.green{
+		height: 300px;
+		width:120%;
+		left:-10%;
+		top:-150px;
+	}
+
+	.signup{
+		width:500px;
+		top:320px;
+	}
+
+	.BTN-login{
+		width:100px;
+		margin:0 auto;
+		height:45px;
+		top:20px;
+		right:20px;
+		position:absolute;
+		text-align:center;
+		background-color:$color-green;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	.BTN-login h2{
+		font-size:14pt;
+		color:$color-white;
+		padding-top:14px;
+	}
+
+	.macbook{
+		height: 549px;
+		top:$height2 - 440px;
+		background: url("../img/macbook.png") center top no-repeat;
+		@include imagealt-2x("../img/macbookx2.png", 500px);
+		background-size:900px;
+	}
+
+
+	.reedsy-logo{margin:0 0 0px 0px; width:96px;}
+
+	header{	
+		background: url("../img/header/large.jpg") center top no-repeat;
+		@include image-2x("../img/header/largex2.jpg", cover);
+		height:1000px;
+		background-size:cover;
+	}
+
+}
+
+@media only screen and (orientation : landscape) {
+	header{
+		height:600px;
+	}
+
+	.logo{
+		width:440px;
+		top:120px;
+	}
+
+	.logo h1{
+		margin:0px 0 0px 20px;
+		position: relative;
+		top:-20px;
+		font-size:75pt;
+		letter-spacing: -4px;
+	}
+
+	.signup{
+			width:400px;
+			top:140px;
+		}
+
+	.macbook{
+		top:500px;
+	}
+
+	section{
+		margin:-80px auto 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
